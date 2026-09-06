@@ -27,26 +27,6 @@ out every fitted relationship** — e.g. the density plane
   with hidden variables and ten sensors; the task is to recover the hidden state from the
   sensors alone.
 
-| # | system | corner | PCA (worst) | LeJEPA (worst) |
-|---|--------|--------|-------------|----------------|
-| ① | Tablet press (NIR) | linear · Gaussian | 0.980 | 0.980 |
-| ② | Two-sugar saccharimeter | **nonlinear · Gaussian** | **−0.09** | **0.97** |
-| ③ | ICP-OES river metals | linear · non-Gaussian | 0.993 | 0.993 |
-| ④ | Anaerobic digester | nonlinear · non-Gaussian | 0.917 | 0.712 |
-
-Scores are linear-probe decodability (R², worst hidden variable, held-out data). For the
-saccharimeter the notebook also verifies the stricter claim: recovery under an **orthogonal
-Procrustes** map reaches R² = 0.98 with QᵀQ = I — recovery genuinely *up to a rotation*, as
-the theorem states. The digester lies outside the theorem's Gaussian regime; our compact
-encoder underperforms PCA there, consistent with the theory.
-
-## Honest scope
-
-These are simulations, not industrial data — that is what makes exact grading possible. The
-sensor models are idealized. The encoder is a compact stand-in for the paper's full SIGReg.
-The experiments address latent-**state** recovery, one component of a world model; a full
-LeCun-style world model additionally needs action-conditioned dynamics.
-
 ## Citing
 
 - D. Klindt, Y. LeCun, R. Balestriero. *When Does LeJEPA Learn a World Model?*
