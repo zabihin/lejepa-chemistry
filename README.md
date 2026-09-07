@@ -1,7 +1,9 @@
-# A Window into World Models: The Next Generation of AI
+# Beyond Prediction: When Does AI Recover the Hidden Structure of the World?
 
 *Can AI understand? LeJEPA vs PCA on four simulated chemical measurement systems —
-companion code, data and notebooks for the article "A Window into World Models".*
+companion code, data and notebooks for the article.*
+
+**Read the article:** [Beyond Prediction: When Does AI Recover the Hidden Structure of the World?](https://medium.com/@zabihin/a-window-into-world-models-the-next-generation-of-ai-73ef2775eee2)
 
 Inspired by **"When Does LeJEPA Learn a World Model?"** — David Klindt, Yann LeCun &
 Randall Balestriero, [arXiv:2605.26379](https://arxiv.org/abs/2605.26379), preprint, May 2026.
